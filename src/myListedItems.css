@@ -1,0 +1,89 @@
+/* Style for the container */
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+  }
+  
+  /* Heading styles */
+  .listed-heading {
+    font-size: 28px;
+    color: #6a0dad; /* Purple color for headings */
+    margin-bottom: 20px;
+  }
+  
+  /* Loading message styles */
+  main {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 20px;
+    color: #6a0dad; /* Purple color for loading text */
+  }
+  
+  /* Card styles */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff; /* White background for card footer */
+  }
+  
+  /* Item name styles */
+  .item-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+  }
+  
+  /* Styles for the "Sold" card footer */
+  .sold-card-footer {
+    background-color: #95dc95; /* Light green background for sold items */
+  }
+  
+  /* Container styles */
+  .container {
+    background-color: #fff; /* White background for the container */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Row styles */
+  .g-4 {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  /* Column styles */
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  /* Responsive styles for columns */
+  @media (max-width: 576px) {
+    .overflow-hidden {
+      margin-bottom: 15px;
+    }
+  }
+  
