@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/myNFT/static/css/main.b6522a90.css",
+    "main.js": "/myNFT/static/js/main.8bbd416e.js",
+    "static/media/logo.svg": "/myNFT/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/myNFT/index.html",
+    "main.b6522a90.css.map": "/myNFT/static/css/main.b6522a90.css.map",
+    "main.8bbd416e.js.map": "/myNFT/static/js/main.8bbd416e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6522a90.css",
+    "static/js/main.8bbd416e.js"
+  ]
+}
